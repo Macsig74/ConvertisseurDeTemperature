@@ -1,0 +1,55 @@
+/* Style général du corps */
+body {
+    font-family: Arial, sans-serif; /* Police d'écriture */
+    background-color: #f0f8ff; /* Couleur de fond claire */
+    color: #333; /* Couleur du texte */
+    text-align: center; /* Alignement centré */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style du titre */
+h1 {
+    color: #007bff; /* Couleur bleue pour le titre */
+    margin-bottom: 20px; /* Espace sous le titre */
+}
+
+/* Style pour les éléments de saisie */
+input[type="number"], select {
+    padding: 10px; /* Espace intérieur */
+    margin: 10px 0; /* Marges verticales */
+    border: 2px solid #007bff; /* Bordure bleue */
+    border-radius: 5px; /* Coins arrondis */
+    width: 200px; /* Largeur fixe */
+    font-size: 16px; /* Taille de la police */
+}
+
+/* Style pour le bouton */
+button {
+    padding: 10px 20px; /* Espace intérieur */
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer; /* Curseur en forme de main */
+    transition: background-color 0.3s; /* Transition douce */
+}
+
+/* Effet de survol sur le bouton */
+button:hover {
+    background-color: #0056b3; /* Couleur plus foncée au survol */
+}
+
+/* Style pour le texte du résultat */
+p {
+    font-size: 18px; /* Taille de la police */
+    margin-top: 20px; /* Espace au-dessus */
+}
+
+/* Style pour les résultats */
+#résultat, #unitérésultat {
+    font-weight: bold; /* Texte en gras */
+    font-size: 24px; /* Taille de police plus grande pour le résultat */
+    color: #007bff; /* Couleur bleue pour le résultat */
+}
